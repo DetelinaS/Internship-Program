@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Exsersises</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../mainn.css">
+    <link rel="stylesheet" href="html_style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="../script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- ==============================The sidebar====================================== -->
+    <app-sidebar class="sidebar">
+
+        <ul class="nav">
+            <!--HTML-->
+            <li class="nav-title">HTML</li>
+
+            <li class="nav-item">
+               <a   class="nav-link " href="text.html">Texts</a>
+            </li>
+           
+            <li class="nav-item">
+              <a  class="nav-link" href="elements.html">Inline and Block</a>
+            </li>
+            
+            <li class="nav-item">
+               <a  class="nav-link " href="list.html"> Lists</a>
+            </li>
+          
+            <li class="nav-item">
+               <a  class="nav-link" href="links.html"> Links </a>
+            </li>
+           
+            <li class="nav-item">
+               <a  class="nav-link" href="images.html">Images</a>
+            </li>
+           
+            <li class="nav-item">
+               <a  class="nav-link  active" href="tables.html"> Tables</a>
+            </li>
+           
+            <li class="nav-item">
+               <a  class="nav-link" href="forms.html"> Forms</a>
+            </li>
+       
+            <!--Css-->
+            <li class="nav-title">CSS</li>
+ 
+            <li class="nav-item">
+               <a  class="nav-link" href="../css/css-colors.html"> CSS Colors</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link" href="../css/css-backgrounds.html"></i> CSS Backgrounds</a>
+            </li>
+           
+            <li class="nav-item">
+                <a  class="nav-link" href="../css/css-box-model.html"> CSS Box Model</a>
+            </li>
+           
+            <li class="nav-item">
+              <a  class="nav-link" href="../css/css-texts-fonts.html"> CSS Texts and Fonts</a>
+            </li>
+            
+            <li class="nav-item">
+               <a  class="nav-link" href="../css/css-lists.html"> CSS Lists</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="../css/css-tables.html">CSS Tables</a>
+            </li>
+          
+            <li class="nav-item">
+             <a class="nav-link" href="../css/css-layout.html"> CSS Layout</a>
+            </li>
+           
+            <li class="nav-item">
+               <a  class="nav-link" href="../css/css-bootstrap.html"> Bootstrap</a>
+            </li>
+          
+            <li class="nav-item">
+             <a class="nav-link" href="../css/css-mastering.html">CSS Mastering</a>
+            </li>
+            <!--JavaScript-->
+            <li class="nav-title">JavaScript</li>
+
+            <li class="nav-item">
+                <a  class="nav-link" href="#/javascript"> JavaScript</a>
+            </li>
+            <!--Angular-->
+            <li class="nav-title">Angular</li>
+
+            <li class="nav-item">
+                <a  class="nav-link" href="#/angular">Angular</a>
+            </li>
+        </ul>
+
+    </app-sidebar>
+    <!--==============================Tab content==============================-->
+    <div class="content">
+        <div class="container-fluid">
+            <h2>Tables</h2>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#menu1">Assigments</a></li>
+                <li><a href="#menu2">(1) Task</a></li>
+                <li><a href="#menu3">(2) Task</a></li>
+                <li><a href="#menu4">(3) Task</a></li>
+            </ul>
+
+            <div class="tab-content">
+    <!-- Task -->
+    <div id="menu1" class="tab-pane fade in active">
+        <ol>
+            <b>Create a web page containing the following sections:</b>
+            <li>Section with a table of 4 rows of data in 2 cols (Name and Email)</li>
+            <li>Section with a table that looks like this:<br>
+                <img src="http://fe.ddns.protal.biz/assets/img/assignments/slice-and-dice/tables/tables-2.jpg"
+                    alt="table_exsample">
+            </li>
+            <li>Section with a table containing rows of data in 3 cols (Car Brand, Car Model, Image).
+                Car brand should be a link to the official website of the manufacturer.</li>
+        </ol>
+        <hr>
+    </div>
+    
+    <!--Table 1  -->
+    <div id="menu2" class="tab-pane fade">
+        <p>Section with a table of 4 rows of data in 2 cols (Name and Email)</p><BR>
+        <section>
+            <table id="table1">
+                <thead>
+                    <tr>
+                        <th>Name:</th>
+                        <th>Email:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Joe Doe</td>
+                        <td>Joedoe@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Joe Doe</td>
+                        <td>Joedoe@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Joe Doe</td>
+                        <td>Joedoe@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Joe Doe</td>
+                        <td>Joedoe@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section><br>
+            <div id="menu2" class="tab-pane fade">
+                 <!--link in site  -->
+                 <div class="sitelink">
+                        <ul>
+                            <li><a href="text.html" target="_blank">Texts Exsersises</a></li>
+                            <li><a href="elements.html" target="_blank">Inline and Block Exsersises</a></li>
+                            <li><a href="list.html" target="_blank">Lists Exsersises</a></li>
+                        </ul>
+                    </div>
+            </div>
+
+    </div>
+    
+     <!-- Table 2 -->
+     <div id="menu3" class="tab-pane fade">
+         <p><li>Section with a table that looks like this:<br>
+            <img src="http://fe.ddns.protal.biz/assets/img/assignments/slice-and-dice/tables/tables-2.jpg"
+                alt="table_exsample">
+        </li></p>
+     
+            <table class="table2">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Name</th>
+                        <th rowspan="2">Email</th>
+                        <th colspan="2" class="phone">Phone</th>
+                    </tr>
+                    <tr>
+                        <th>Business</th>
+                        <th>Personal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>john@doe.com</td>
+                        <td>+3598787878</td>
+                        <td>+3595555555</td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>john@doe.com</td>
+                        <td>+3598787878</td>
+                        <td>+3595555555</td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>john@doe.com</td>
+                        <td>+3598787878</td>
+                        <td>+3595555555</td>
+                    </tr>
+                </tbody>
+            </table>
+      
+    </div>
+     <!--Table 3 -->
+     <div id="menu4" class="tab-pane fade">
+         <p>Section with a table containing rows of data in 3 cols (Car Brand, Car Model, Image).
+                Car brand should be a link to the official website of the manufacturer.</p><br>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Car Brand</th>
+                        <th>Car Model</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.mercedes-benz.bg/passengercars.html">Mercedes</a></td>
+                        <td> Mercedes S </td>
+                        <td><img src="https://www.mercedes-benz.bg/passengercars/mercedes-benz-cars/models/e-class/e-class-coupe/explore/design-detail/_jcr_content/contentgallerycontainer/par/contentgallery_e902/par/contentgallerytile_b/image.MQ4.8.20180827143608.jpeg"
+                                alt="mercedes s"></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.audi.bg/">Audi</a></td>
+                        <td>A7/S7 Sportback</td>
+                        <Td><img
+                                src="https://static-ms-cc.porscheinformatik.com/media/bg/MEDIA/A/MG/492/overviewM.jpg?APP=MSS&prefer=vivid">
+                        </Td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </body>
+    </html>
+
+    <script>$(document).ready(function () {
+            $(".nav-tabs a").click(function () {
+                $(this).tab('show');
+            });
+        });</script>

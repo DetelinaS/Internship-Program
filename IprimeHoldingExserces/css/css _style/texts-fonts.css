@@ -1,0 +1,39 @@
+#CustomFonts h1,
+p::first-letter {
+    font-family: 'BebasNeueRegular';
+}
+
+#CustomFonts p::first-letter {
+    font-size: 200%;
+}
+
+.serif{
+    font-family: "Times New Roman", Times, serif;
+    size:18px;
+}
+ .sans-serif{
+    font-family: Arial, Helvetica, sans-serif;
+    size:16px;
+}
+
+
+
+#menu4 body{
+    size:1em;
+}
+#menu4 h1{
+text-align: left;
+text-indent: 50px;
+}
+#menu4 h2{
+text-align: right;
+text-decoration:line-through;
+}
+#menu4 p{
+letter-spacing: 2px;
+line-height: 1.4;
+}
+#menu4 p::first-line{
+font-weight:bolder;
+font-size:1.5em;
+}

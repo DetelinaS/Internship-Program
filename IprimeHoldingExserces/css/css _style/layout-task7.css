@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .column.left{
+      position: relative;
+      float: left;
+      width: 400px;
+      padding: 15px;
+  }
+  .column.right{
+    position: relative;
+      width: 400px;
+      float: left;
+      padding: 15px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  img {
+    border: 1px solid grey;
+    padding: 5px;
+    width: 100%;
+    position: relative; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+  
+   .title{
+       color:brown;
+       text-transform: capitalize;
+       font-size: 1em;
+   }
+   div.title.grey{
+    color: grey;
+
+   }
+   .time{
+       color:grey;
+       font-style: italic;
+       font-family: 'Times New Roman', Times, serif;
+       text-transform: capitalize;
+   }
+
+   .main_text{
+    width:100%;  
+    height:40px;
+    line-height: 1.25;
+    display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+/*-------------Second section--------------------------*/
+div.row{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+}
+
+.column.img{
+  position: relative;
+  float: left;
+  width: 30%;
+}
+.column.img img{ 
+    height: 90px;
+    
+}
+div.column.artical{
+   position: relative;
+    width: 70%;
+    float: left;
+    padding-left: 10px;
+    line-height: 1.8;
+}
+.fancy{
+    margin: 0px 0px 0px 0px ;
+    color:grey;
+}
+
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column.left, .column.right {
+          width: 100%;
+        }
+      }
+      
+  

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Exsersises</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../mainn.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="../script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- ==============================The sidebar====================================== -->
+    <app-sidebar class="sidebar">
+
+            <ul class="nav">
+                <!--HTML-->
+                <li class="nav-title">HTML</li>
+
+                <li class="nav-item">
+                   <a   class="nav-link active" href="text.html">Texts</a>
+                </li>
+               
+                <li class="nav-item">
+                  <a  class="nav-link" href="elements.html">Inline and Block</a>
+                </li>
+                
+                <li class="nav-item">
+                   <a class="nav-link" href="list.html"> Lists</a>
+                </li>
+              
+                <li class="nav-item">
+                   <a class="nav-link" href="links.html"> Links </a>
+                </li>
+               
+                <li class="nav-item">
+                   <a class="nav-link" href="images.html">Images</a>
+                </li>
+               
+                <li class="nav-item">
+                   <a  class="nav-link" href="tables.html"> Tables</a>
+                </li>
+               
+                <li class="nav-item">
+                   <a  class="nav-link" href="forms.html"> Forms</a>
+                </li>
+                  <!--Css-->  
+                <li class="nav-title">CSS</li>
+ 
+                <li class="nav-item">
+                   <a  class="nav-link" href="../css/css-colors.html"> CSS Colors</a>
+                </li>
+            
+                <li class="nav-item">
+                  <a class="nav-link" href="../css/css-backgrounds.html"></i> CSS Backgrounds</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a  class="nav-link" href="../css/css-box-model.html"> CSS Box Model</a>
+                </li>
+               
+                <li class="nav-item">
+                  <a  class="nav-link" href="../css/css-texts-fonts.html"> CSS Texts and Fonts</a>
+                </li>
+                
+                <li class="nav-item">
+                   <a  class="nav-link" href="../css/css-lists.html"> CSS Lists</a>
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="../css/css-tables.html">CSS Tables</a>
+                </li>
+              
+                <li class="nav-item">
+                 <a class="nav-link" href="../css/css-layout.html"> CSS Layout</a>
+                </li>
+               
+                <li class="nav-item">
+                   <a  class="nav-link" href="../css/css-bootstrap.html"> Bootstrap</a>
+                </li>
+              
+                <li class="nav-item">
+                 <a class="nav-link" href="../css/css-mastering.html">CSS Mastering</a>
+                </li>
+             <!--JavaScript-->
+                <li class="nav-title">JavaScript</li>
+              
+                <li class="nav-item">
+                   <a  class="nav-link" href="#/javascript"> JavaScript</a>
+                </li>
+               <!--Angular-->
+                <li class="nav-title">Angular</li>
+             
+                <li class="nav-item">
+                <a  class="nav-link" href="#/angular">Angular</a>
+                </li>
+            </ul>
+         
+    </app-sidebar>
+    <!--==============================Tab content==============================-->
+    <div class="content">
+        <div class="container-fluid">
+            <h2>Text</h2>
+            <ul class="nav nav-tabs">    
+                <li class="active"><a href="#menu1">Assigments</a></li>
+                <li><a href="#menu2">Task</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="menu1" class="tab-pane fade in active">
+                   <h4 > Create a web page containing the following elements:</h4>
+                <ol>
+                    <li>All different types of Headings</li>
+                    <li> Paragraphs</li>
+                    <li>Bold text (old and new way)</li>
+                    <li>Italic text (old and new way)</li>
+                    <li>Subscript and Superscript elements</li>
+                </ol>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <ol>
+                    <li>
+                            <h1>h1. heading</h1>
+                            <h2>h2. heading</h2>
+                            <h3>h3. heading</h3>
+                            <h4>h4. heading</h4>
+                            <h5>h5. heading</h5>
+                            <h6>h6. heading</h6>
+                    </li>
+                    <li>
+                        <p> Paragraphs<BR>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit maxime unde asperiores dolores quaerat soluta obcaecati optio laudantium quibusdam suscipit, sint ratione iusto explicabo corrupti saepe id pariatur nulla fugiat.</p>
+                    </li>
+                    <li><b> Bold text old </b></li>
+                    <li><strong> Bold text new way</strong></li>
+                    <li><i>Italic text (old )</i></li>
+                    <li><em>Italic text ( new way)</em></li>
+                    <li><sub>Subscript</sub>elements</li>
+                    <li><sup>Superscript </sup>elements</li>
+                </ol>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+    </html>
+
+    <script>$(document).ready(function () {
+            $(".nav-tabs a").click(function () {
+                $(this).tab('show');
+            });
+        });</script>

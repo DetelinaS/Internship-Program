@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Exsersises</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../mainn.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="../script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- ==============================The sidebar====================================== -->
+    <app-sidebar class="sidebar">
+
+        <ul class="nav">
+            <!--HTML-->
+            <li class="nav-title">HTML</li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="text.html">Texts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="elements.html">Inline and Block</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active " href="list.html"> Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="links.html"> Links </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="images.html">Images</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="tables.html"> Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="forms.html"> Forms</a>
+            </li>
+
+            <!--Css-->
+            <li class="nav-title">CSS</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-colors.html"> CSS Colors</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-backgrounds.html"></i> CSS Backgrounds</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-box-model.html"> CSS Box Model</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-texts-fonts.html"> CSS Texts and Fonts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-lists.html"> CSS Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-tables.html">CSS Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-layout.html"> CSS Layout</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-bootstrap.html"> Bootstrap</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-mastering.html">CSS Mastering</a>
+            </li>
+            <!--JavaScript-->
+            <li class="nav-title">JavaScript</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#/javascript"> JavaScript</a>
+            </li>
+            <!--Angular-->
+            <li class="nav-title">Angular</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#/angular">Angular</a>
+            </li>
+        </ul>
+
+    </app-sidebar>
+    <!--==============================Tab content==============================-->
+    <div class="content">
+        <div class="container-fluid">
+            <h2>Lists</h2>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#menu1">Assigments</a></li>
+                <li><a href="#menu2">Unordered list</a></li>
+                <li><a href="#menu3">Ordered list</a></li>
+                <li><a href="#menu4">Description list</a></li>
+                <li><a href="#menu5"> Nested tables</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="menu1" class="tab-pane fade in active">
+                    <!-- Task -->
+                    <ol>
+                        <b>Create a web page containing:</b>
+                        <li>An unordered list with 3-4 items with square bullets</li>
+                        <li>An ordered list with 3-4 items with uppercase roman numbers as list item marker</li>
+                        <li>A description list with 2-3 terms</li>
+                        <li>An ordered list containing items "Wake up", "Shopping", "Sleep". Nest an unordered list to
+                            the
+                            "Shopping" list item with appropriate items</li>
+                    </ol>
+                </div>
+                <!-- Unordered list -->
+                <div id="menu2" class="tab-pane fade">
+                    <ul><b>Unordered list</b>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </div>
+                <!-- Ordered listt -->
+                <div id="menu3" class="tab-pane fade">
+                    <ol type="I"><b>Ordered list</b>
+                        <li>Iteml 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+                </div>
+
+                <!-- Description list -->
+                <div id="menu4" class="tab-pane fade">
+                    <dl><b>Type of List</b>
+                        <dt> Description list</dt>
+                        <dd>A description list may contain numerous terms and descriptions, one after the other.
+                            Additionally, a
+                            description list may have multiple terms per description, as well as multiple descriptions
+                            per term. A
+                            single term may have multiple meanings and warrant multiple descriptions. Conversely,
+                            a single description may be suitable for multiple terms.</dd>
+                        <dt>Ordered list</dt>
+                        <dd>An ordered list starts with the "ol" tag. Each list item starts with the "li" tag.The list
+                            items will be
+                            marked with numbers by default:</dd>
+                        <dt>Unordered list</dt>
+                        <dd>An unordered list is simply a list of related items whose order does not matter. Creating an
+                            unordered
+                            list in HTML is accomplished using the unordered list block-level element, "ul". Each item
+                            within an
+                            unordered list is individually marked up using the list item element, "li".</dd>
+                    </dl>
+                </div>
+
+                <!-- Nested tables -->
+                <div id="menu5" class="tab-pane fade">
+                    <ol>
+                        <li>Wake up</li>
+                        <li>Shopping
+                            <ul>
+                                <li>Milk</li>
+                                <li>Oil</li>
+                                <li>Coffee</li>
+                            </ul>
+                        </li>
+                        <li>Sleep</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
+
+
+<script>$(document).ready(function () {
+        $(".nav-tabs a").click(function () {
+            $(this).tab('show');
+        });
+    });</script>

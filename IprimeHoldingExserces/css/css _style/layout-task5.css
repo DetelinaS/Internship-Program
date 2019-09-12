@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Kaushan Script','Fruktur', cursive;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px 15px;
+  border:1px solid black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.image{
+  width: 30%;
+  float: left;
+  font-size: 60px;
+}
+.content{
+  width: 70%;
+  float: right;
+}
+
+.tittle{
+  font-size: 30px;
+  font-family: 'Fruktur', cursive;
+}

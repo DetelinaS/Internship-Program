@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.active {
+    background-color:rgb(6, 137, 212);
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    display:block;
+}
+.active .category{
+    color: white;
+    text-decoration: underline;
+}
+
+.menu {
+    overflow: hidden;
+    color: black;
+    font-size: 15px;
+    background-color: rgba(235, 235, 235, 0.596);
+    position: relative;
+    text-decoration: none;
+}
+
+.menu a{
+    padding: 10px
+}
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+    
+}
+
+ul.menu {
+    list-style-type: none;
+    padding-left: 10px;
+    position:relative;
+}
+
+ul.menu li a {
+height: 15px;
+line-height: 15px;
+display: block;
+padding-left: 45px; /* To sift text off the background-image */
+color:black;
+text-decoration:none;
+background: url("../images/icon-sprite.png") no-repeat; /* As all link share the same background-image */
+}
+
+ul.menu li.item1 a {
+background-position: 0 2px;
+}
+ul.menu li.item2 a {
+background-position: 0 -39px;
+}
+ul.menu li.item3 a {
+background-position: 0 -84px;
+}
+ul.menu li.item4 a {
+background-position: 0 -124px;
+}
+ul.menu li.item5 a {
+background-position: 0 -167px;
+}
+ul.menu li.item6 a {
+background-position: 0 -207px;
+}
+ul.menu li.item7 a {
+background-position: 0 -249px;
+}
+ul.menu li.item8 a {
+background-position: 0 -290px;
+}
+ul.menu li.item9 a {
+background-position: 0 -336px;
+}
+ul.menu li.item10 a {
+background-position: 0 -376px;
+}
+ul.menu li.item11 a {
+background-position: 0 -416px;
+}
+ul.menu li.item12 a {
+background-position: 0 -456px;
+}
+ul.menu li.item13 a {
+background-position: 0 -499px;
+}
+

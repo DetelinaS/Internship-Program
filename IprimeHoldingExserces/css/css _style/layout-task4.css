@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+  
+  div.conteiner{
+   border: 1px solid rgb(70, 62, 62);
+    width: 600px;
+    height: auto; 
+    margin: 10px;
+    padding: 5px;  
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float:left;
+  }
+  
+  /* Left column */
+  .column.side.left{
+    width: 5%;
+  }
+
+  /* Middle column */
+  .column.middle {
+    width: 85%;
+    padding-left:10px;
+    vertical-align:middle;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row{
+    padding: 5px 0px;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  
+  /*Format image*/
+  .avatar{
+    vertical-align:middle;
+    width: 30px;
+    height:30px;
+  }
+/*Format Name*/
+  div.name{ 
+    width: 120px; 
+    color:rgb(48, 4, 192);
+    font-family: sans-serif;
+    font-weight:bolder;
+    vertical-align: middle;
+}
+
+.material-icons{
+  vertical-align:middle;
+  color: rgb(197, 197, 197);
+  font-size: 14px;
+}
+
+.column.side.right.time.right{
+  width:60%;
+  float: right;
+  color: rgb(197, 197, 197);;
+}
+.column.side.right.material-icons.left{
+  float: left;
+}
+/*Emoji*/
+.em{
+  font-size: 12px;
+}
+
+ p{
+  margin:5px 0px 5px 0px;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Exsersises</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../mainn.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="../script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- ==============================The sidebar====================================== -->
+    <app-sidebar class="sidebar">
+
+        <ul class="nav">
+            <!--HTML-->
+            <li class="nav-title">HTML</li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="text.html">Texts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="elements.html">Inline and Block</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="list.html"> Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="links.html"> Links </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="images.html">Images</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="tables.html"> Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" href="forms.html"> Forms</a>
+            </li>
+
+            <!--Css-->
+            <li class="nav-title">CSS</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-colors.html"> CSS Colors</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-backgrounds.html"></i> CSS Backgrounds</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-box-model.html"> CSS Box Model</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-texts-fonts.html"> CSS Texts and Fonts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-lists.html"> CSS Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-tables.html">CSS Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-layout.html"> CSS Layout</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-bootstrap.html"> Bootstrap</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-mastering.html">CSS Mastering</a>
+            </li>
+            <!--JavaScript-->
+            <li class="nav-title">JavaScript</li>
+
+            <li class="nav-item">
+                <a routerlinkactive="active" class="nav-link" href="#/javascript"> JavaScript</a>
+            </li>
+            <!--Angular-->
+            <li class="nav-title">Angular</li>
+
+            <li class="nav-item">
+                <a routerlinkactive="active" class="nav-link" href="#/angular">Angular</a>
+            </li>
+        </ul>
+
+    </app-sidebar>
+    <!--==============================Tab content==============================-->
+    <div class="content">
+        <div class="container-fluid">
+            <h2>Forms</h2>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#menu1">Assigments</a></li>
+                <li><a href="forms/login.html">Login form</a></li>
+                <li><a href="forms/Survery.html"> Survey</a></li>
+                <li><a href="forms/Comments.html">Comment</a></li>
+                <li><a href="forms/User-Create.html">Create User</a></li>
+                <li><a href="forms/Registration.html">Registration</a></li>
+                <li><a href="forms/Youtube Basic Info.html">Youtube Basic</a></li>
+                <li><a href="forms/Youtube Advanced.html">Youtube Advanced</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <!--Questions-->
+                <div class="container-fluid " id="questions">
+                    <div class="row ">
+                        <div class=" col-lg-7 align-self-center ">
+                            <div class="media-body d-flex">
+                                <h3 class="strong">Въпроси</h3>
+                                <p> За всички форми използвам:
+                                    <br>
+                                    <code>&lt;form method="post" action="http://jkorpela.fi/cgi-bin/echo.cgi"&gt;</code>
+                                    <br>
+                                    При въвеждане на данни на кирилица във форма с възможност за попълване на
+                                    данни(пр."№3Comment"),при наличието на
+                                    <code>&lt;meta charset="UTF-8"&gt;</code>
+                                    не се разпознават кирилизираните шрифтове.
+                                    <em>(виж картинката)</em><br>
+                                    Как бих могла да оправя този проблем?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <img class="align-self-center mr-3" src="../questions/form-question.png"
+                                alt="questions image">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Task-->
+                <div id="menu1" class="tab-pane fade in active">
+                    <div>
+                        <h4><strong> Create a web page which contains the following forms:</strong></h4>
+                        <ol>
+                            <li>Login Form<br>
+                                <img src="http://fe.ddns.protal.biz/assets/img/assignments/slice-and-dice/forms/forms-1.jpg"
+                                    alt="Login form"><br>
+                            </li>
+                            <li>Survey:<BR>
+                                <img src="http://fe.ddns.protal.biz/assets/img/assignments/slice-and-dice/forms/forms-2.jpg"
+                                    alt="Image Survey"><br>
+                            </li>
+                            <li>Comment<br>
+                                <img src="http://fe.ddns.protal.biz/assets/img/assignments/slice-and-dice/forms/forms-3.jpg"
+                                    alt="Comment"><br>
+                            </li>
+                            <li>Create User<br>
+                                <img src="http://fe.ddns.protal.biz/assets/img/assignments/slice-and-dice/forms/forms-4.jpg"
+                                    alt="Create User"><br>
+                            </li>
+                            <li>Registration<br>
+                                <img src="http://fe.ddns.protal.biz/assets/img/assignments/slice-and-dice/forms/forms-5.jpg"
+                                    alt="Registration"><br>
+                            </li>
+                            <li>Youtube Basic<br>
+                                <img src="http://fe.ddns.protal.biz/assets/img/assignments/slice-and-dice/forms/forms-6.jpg"
+                                    alt=" Youtube Basic"><br>
+                            </li>
+                            <li>Youtube Advanced<br>
+                                <img src="http://fe.ddns.protal.biz/assets/img/assignments/slice-and-dice/forms/forms-7.jpg"
+                                    alt=" Youtube Advanced"><br>
+                            </li>
+                        </ol>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+    <script>$(document).ready(function () {
+            $(".nav-tabs a").click(function () {
+                $(this).tab('show');
+            });
+        });</script>

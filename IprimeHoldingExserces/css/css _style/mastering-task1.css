@@ -1,0 +1,84 @@
+html {
+  
+        box-sizing: content-box;
+  }
+body{
+    margin: 0px;
+}
+
+  
+  
+/* Background image */
+.jumbotron {
+    margin:0px;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    border-radius: .0rem; 
+  }
+  
+  .bg-cover {
+    background-size: cover;
+    color: white;
+    background-position: center center;
+  
+  }
+ 
+  .bg-cover {
+    background-image: url("../mastering/images/photo-1.jpg");
+}
+/*Content*/
+.container .mb-1,.text-capitalize{
+font-family: 'Raleway';
+font-size: 3.7rem;
+}
+
+div.row{
+   margin: 0px 0px;
+}
+
+.text-left{
+    padding: 30px 10px;
+}
+
+
+.container, .row {
+    height: 100%;
+    min-height: 100%;
+    padding: 30px;
+
+  }
+
+.lead {
+    font-size: 0.8rem;
+   }
+
+.btn{
+    border-radius: 0px;
+    padding: 10px 20px;
+    width: 160px;
+    font-size: 0.8rem;
+}
+.btn-primary{
+    background-color: rgb(104, 4, 235);
+    border-color: rgb(104, 4, 235);
+}
+#portfolio-header{
+    font-family:  Arial, sans-serif;
+    padding: 20px 0px;
+    background-color: rgb(30, 29, 31);
+    color: white;
+}
+
+/*Image Gallery*/
+#gallery, #gallery div.row, #gallery div.row .col-lg-3 {
+    padding: 0px;
+    background-color:rgb(30, 29, 31); 
+}
+
+figure.col-md-4, div.row{
+    padding: 0px;
+    margin:0px;
+}
+
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Exsersises</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../mainn.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="../script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- ==============================The sidebar====================================== -->
+    <app-sidebar class="sidebar">
+
+        <ul class="nav">
+            <!--HTML-->
+            <li class="nav-title">HTML</li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="text.html">Texts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="elements.html">Inline and Block</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="list.html"> Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link  active" href="links.html"> Links </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="images.html">Images</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="tables.html"> Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="forms.html"> Forms</a>
+            </li>
+
+            <!--Css-->
+            <li class="nav-title">CSS</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-colors.html"> CSS Colors</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-backgrounds.html"></i> CSS Backgrounds</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-box-model.html"> CSS Box Model</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-texts-fonts.html"> CSS Texts and Fonts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-lists.html"> CSS Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-tables.html">CSS Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-layout.html"> CSS Layout</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-bootstrap.html"> Bootstrap</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-mastering.html">CSS Mastering</a>
+            </li>
+            <!--JavaScript-->
+            <li class="nav-title">JavaScript</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#/javascript"> JavaScript</a>
+            </li>
+            <!--Angular-->
+            <li class="nav-title">Angular</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#/angular">Angular</a>
+            </li>
+        </ul>
+
+    </app-sidebar>
+    <!--==============================Tab content==============================-->
+    <div class="content">
+        <div class="container-fluid">
+            <h2>Links</h2>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#menu1">Assigments</a></li>
+                <li><a href="#menu2">Links to different</a></li>
+                <li><a href="#menu3"> Links to all previous assignments</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="menu1" class="tab-pane fade in active">
+                    <!-- Task -->
+                    <p>
+                        <ol>
+                            <b>Create a web page containing:</b>
+                            <li>At least 3 links to different social networks</li>
+                            <li>Unordered list with links to all previous assignments. Each one should open a new tab.
+                            </li>
+                        </ol>
+                    </p>
+                    <hr>
+                </div>
+                <!--different social networks  -->
+                <div id="menu2" class="tab-pane fade">
+                    <div class="sotiallinks">
+                        <a href="http://fe.ddns.protal.biz/#/slice-and-dice/links" target="_self">Visit site</a></br>
+                        <a href="http://www.w3schools.com/html/html_lists.asp" target="_parent">w3school
+                            Tutorial</a></br>
+                        <a href="https://www.google.bg/?hl=bg" target="_top">Go to google</a>
+                    </div>
+                </div>
+                <!--link in site  -->
+                    <div id="menu3" class="tab-pane fade">
+                        <div class="sitelink">
+                            <ul>
+                                <li><a href="text.html" target="_blank">Texts Exsersises</a></li>
+                                <li><a href="elements.html" target="_blank">Inline and Block Exsersises</a></li>
+                                <li><a href="list.html" target="_blank">Lists Exsersises</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+  
+
+</body>
+
+</html>
+
+<script>$(document).ready(function () {
+        $(".nav-tabs a").click(function () {
+            $(this).tab('show');
+        });
+    });</script>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Exsersises</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../mainn.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="../script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- ==============================The sidebar====================================== -->
+    <app-sidebar class="sidebar">
+
+        <ul class="nav">
+            <!--HTML-->
+            <li class="nav-title">HTML</li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="text.html">Texts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="elements.html">Inline and Block</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="list.html"> Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="links.html"> Links </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" href="images.html">Images</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="tables.html"> Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="forms.html"> Forms</a>
+            </li>
+
+            <!--Css-->
+            <li class="nav-title">CSS</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-colors.html"> CSS Colors</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-backgrounds.html"></i> CSS Backgrounds</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-box-model.html"> CSS Box Model</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-texts-fonts.html"> CSS Texts and Fonts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-lists.html"> CSS Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-tables.html">CSS Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-layout.html"> CSS Layout</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-bootstrap.html"> Bootstrap</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../css/css-mastering.html">CSS Mastering</a>
+            </li>
+            <!--JavaScript-->
+            <li class="nav-title">JavaScript</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#/javascript"> JavaScript</a>
+            </li>
+            <!--Angular-->
+            <li class="nav-title">Angular</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#/angular">Angular</a>
+            </li>
+        </ul>
+
+    </app-sidebar>
+    <!--==============================Tab content==============================-->
+    <div class="content">
+        <div class="container-fluid">
+            <h2>Images</h2>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#menu1">Assigments</a></li>
+                <li><a href="#menu2"> (1) Linked from another websites</a></li>
+                <li><a href="#menu3"> (2) Opens Wikipedia </a></li>
+                <li><a href="#menu4">(3) From a local foldert</a></li>
+                <li><a href="#menu5">(4) Image map</a></li>
+                <li><a href="#menu6"> (5) Change source</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="menu1" class="tab-pane fade in active">
+                    <!-- Task -->
+                    <ol>
+                        <b>Create a web page containing the following sections:</b>
+                        <li>Section with 3 images linked from another websites</li>
+                        <li>Section with 3 links with images of animals which opens Wikipedia page for the particular
+                            animal in
+                            a new tab</li>
+                        <li>Section with 3 images of different types linked from a local folder which is on same level
+                            as the
+                            HTML file</li>
+                        <li>Section containing an image map of your choice - add at least 3 clickable areas which open
+                            appropriate page</li>
+                        <li>Section containing an image that is different depending on the user's browser viewport.
+                            Change the
+                            image source at least two times depending on the browser's width</li>
+                    </ol>
+                    <hr>
+                </div>
+                <!--First section-->
+                <div id="menu2" class="tab-pane fade">
+                    <section>
+                        <p>An images linked from another websites:</p>
+                        <img src="http://www.iconarchive.com/download/i73026/cornmanthe3rd/plex/Other-html-5.ico"
+                            alt="logo" width="200px" height="100px">
+                        <img src="http://fe.ddns.protal.biz/assets/img/brand/logo-prime.png" alt="logo" width="100px"
+                            height="100px">
+                        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+                            alt="logo" width="200px" height="100px">
+                    </section>
+                </div>
+
+                <!--Second section-->
+                <div id="menu3" class="tab-pane fade">
+                    <section>
+                        <p>links with images of animals which opens Wikipedia page for the particular animal in a new
+                            tab</p>
+                        <a
+                            href="https://bg.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%BE_%D0%BA%D1%83%D1%87%D0%B5">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Karakatschan.jpg/240px-Karakatschan.jpg"
+                                alt="dog" width="200px" height="100px"></a>
+                        <a href="https://bg.wikipedia.org/wiki/%D0%9A%D0%BE%D1%82%D0%BA%D0%B0">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Pumiforme.JPG/240px-Pumiforme.JPG"
+                                alt="cat" width="200px" height="100px"></a>
+                        <a href="https://bg.wikipedia.org/wiki/%D0%97%D0%B0%D0%B9%D1%86%D0%B8">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Feldhase.jpg/240px-Feldhase.jpg"
+                                alt="rabbit" width="200px" height="100px"></a>
+                    </section>
+                </div>
+                <!--Tird section-->
+                <div id="menu4" class="tab-pane fade">
+                    <section>
+                        <P>Section with 3 images of different types linked from a local folder which is on same level as
+                            the HTML
+                            file</P>
+                        <img src="images/img_avatar.png" alt="Avatar" width="150px" height="200px">
+                        <img src="images/img_avatar2.png" alt="Avatar" width="150px" height="200px">
+                        <img src="images/img_avatar3.png" alt="Avatar" width="150px" height="200px">
+                    </section>
+                </div>
+                <!--Fourth section-->
+                <div id="menu5" class="tab-pane fade">
+                    <section>
+                        <p>Section containing an image map of your choice - add at least 3 clickable areas which open
+                            appropriate
+                            page</p>
+                        <img src="images/workplace.png" alt="Workplace" usemap="#workmap">
+                        <map name="workmap">
+                            <area shape="poly" coords="66,174,65,212,387,212,386,174" alt="Navigation"
+                                href="https://www.w3schools.com/tags/tag_nav.asp" target="_blank" />
+                            <area shape="poly" coords="51,504,52,539,400,541,400,507" alt="Foother"
+                                href="https://www.w3schools.com/tags/tag_section.asp" target="_blank" />
+                            <area shape="poly" coords="50,239,52,492,293,491,293,238" alt="Section"
+                                href="https://www.w3schools.com/tags/tag_section.asp" target="_blank" />
+                            <area shape="poly" coords="308,239,307,495,401,494,398,238" alt="Aside"
+                                href="https://www.w3schools.com/tags/tag_aside.asp" target="_blank" />
+                        </map>
+                    </section>
+                </div>
+                <div id="menu6" class="tab-pane fade">
+                    <!--five section-->
+                    <section>
+                        <p>Section containing an image that is different depending on the user's browser viewport.
+                            Change the image
+                            source at least two times depending on the browser's width.</p>
+                        <picture>
+                            <source media="(min-width: 850px)" srcset="images/img_avatar.png">
+                            <source media="(min-width: 665px)" srcset="images/img_avatar2.png">
+                            <img src="images/img_avatar3.png" alt="avatar" style="width:auto;">
+                        </picture>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
+
+<script>$(document).ready(function () {
+        $(".nav-tabs a").click(function () {
+            $(this).tab('show');
+        });
+    });</script>

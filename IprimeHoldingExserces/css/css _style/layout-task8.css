@@ -1,0 +1,86 @@
+body{
+  box-sizing: border-box;
+  margin:30px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width:20%;
+  margin-bottom: 0px;
+  padding: 0 0px;
+}
+
+.card img{
+  height:300px;
+  width: 100%;
+}
+
+img:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img{
+opacity: 0.5;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.content:hover .text{
+  visibility:visible;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility:hidden;
+}
+  
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card{
+  border:1px solid rgb(211, 209, 209);
+  padding:10px;
+}
+
+.container{
+  width: 50%;
+  color: grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container p{
+  text-align: center;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+

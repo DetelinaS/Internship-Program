@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Exsersises</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../mainn.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="../script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+    /*Box Model*/
+    div .text-box-model {
+        width: 600px;
+        border: 1px solid gray;
+        padding: 6px;
+        padding-top: 30px;
+        margin: 2px;
+        text-align: left;
+    }
+</style>
+
+<body>
+
+    <!-- ==============================The sidebar====================================== -->
+    <app-sidebar class="sidebar">
+
+        <ul class="nav">
+            <!--HTML-->
+            <li class="nav-title">HTML</li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="../html/text.html">Texts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../html/elements.html">Inline and Block</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="../html/list.html"> Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="../html/links.html"> Links </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../html/images.html">Images</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../html/tables.html"> Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../html/forms.html"> Forms</a>
+            </li>
+
+
+            <!--Css-->
+            <li class="nav-title">CSS</li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="css-colors.html"> CSS Colors</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css-backgrounds.html"></i> CSS Backgrounds</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" href="css-box-model.html"> CSS Box Model</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css-texts-fonts.html"> CSS Texts and Fonts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css-lists.html"> CSS Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css-tables.html">CSS Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css-layout.html"> CSS Layout</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css-bootstrap.html"> Bootstrap</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css-mastering.html">CSS Mastering</a>
+            </li>
+            <!--JavaScript-->
+            <li class="nav-title">JavaScript</li>
+
+            <li class="nav-item">
+                <a routerlinkactive="active" class="nav-link" href="#/javascript"> JavaScript</a>
+            </li>
+            <!--Angular-->
+            <li class="nav-title">Angular</li>
+
+            <li class="nav-item">
+                <a routerlinkactive="active" class="nav-link" href="#/angular">Angular</a>
+            </li>
+        </ul>
+
+    </app-sidebar>
+    <!--==============================Tab content==============================-->
+    <div class="content">
+        <div class="container-fluid">
+            <h2>Box model</h2>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#menu1">Assigments</a></li>
+                <li><a href="#menu2">(1) Box model</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <!--Task-->
+                <div id="menu1" class="tab-pane fade in active">
+                    <h4>Create a web page that looks like this: </h4>
+                    <img src="http://fe.ddns.protal.biz/assets/img/assignments/slice-and-dice/css/box-model/box-model-1.jpg"
+                        height="auto" width="300px">
+                </div>
+                <!-- First Section-->
+                <div id="menu2" class="tab-pane fade">
+                    <div id="box-model">
+                        <div class="text-box-model">Hellow</div>
+                    </div><br>
+                    <div id="box-model">
+                        <div class="text-box-model">Hellow</div>
+                    </div><br>
+                    <div id="box-model">
+                        <div class="text-box-model">Hellow</div>
+                    </div><br>
+                    <div id="box-model">
+                        <div class="text-box-model">Hellow</div>
+                    </div><br>
+                    <div id="box-model">
+                        <div class="text-box-model">Hellow</div>
+                    </div><br>
+                    <div id="box-model">
+                        <div class="text-box-model">Hellow</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

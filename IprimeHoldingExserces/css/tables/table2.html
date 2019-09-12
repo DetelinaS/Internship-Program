@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Table2</title>
+    <style>
+        table{
+            border-left: hidden;
+            border-right: hidden;
+            text-align: left;  
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        table tr td{ 
+            padding: 10px;
+            padding-right:50px;
+            font-size: 16px;
+        }
+        table tr th {
+            border-top: 1px solid black;
+            border-bottom: 2px solid black;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: lighter;
+            padding: 5px; 
+        }
+        #table tr:nth-child(5n){
+            background-color: rgba(164, 217, 219, 0.89);
+        }
+        #table tr:nth-child(3n){
+            background-color: rgba(227, 229, 231, 0.767);
+        }
+        table tr td:nth-last-of-type(4n-3){
+            padding-right: 25px;
+            text-align:right;
+        }
+        table tr th:nth-last-of-type(4n-3){
+            padding-right: 25px;
+            text-align:right;}
+           
+    </style>
+</head>
+
+<body>
+    <table id="table">
+        <tr>
+            <th>Автор</th>
+            <th>Загравие</th>
+            <th>Цена</th>
+        </tr>
+        <tr>
+            <td>Джорж Р.Р.Мартин</td>
+            <td>Песен за огън и лед</td>
+            <td>$36.99</td>
+        </tr>
+        <tr>
+            <td>Стефан Майър</td>
+            <td>Здрач</td>
+            <td>$27.49</td>
+        </tr>
+        <tr>
+            <td>Дан Браун</td>
+            <td>Цифрова Крепост</td>
+            <td>$13.99</td>
+        </tr>
+        <tr>
+            <td>Дан Браун</td>
+            <td>Шесто клеймо</td>
+            <td>$12.99</td>
+        </tr>
+    </table>
+</body>

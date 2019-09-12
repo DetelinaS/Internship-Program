@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  div.conteiner{
+    background-color:rgb(195, 191, 191);
+    width: 250px;
+    height: auto; 
+    padding: 10px;
+    
+  }
+  div.title{
+    padding: 10px 0px;
+    color: rgb(77, 77, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float:left;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 10%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 60%;
+    padding-left:5px;
+    vertical-align:middle;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row{
+    padding: 5px 0px;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  
+  .avatar{
+    vertical-align:middle;
+    border-radius: 50%;
+    width: 25px;
+    height:25px;
+  }
+
+  div.a{
+    overflow: hidden;
+    white-space: nowrap;  
+    width: 120px; 
+    text-overflow: ellipsis; 
+    color:black;
+    vertical-align: middle;
+}
+
+.material-icons{
+  vertical-align:middle;
+  color: grey;
+  font-size: 18px;
+}
+.number{
+    padding-left:50px;
+    color: grey;
+}

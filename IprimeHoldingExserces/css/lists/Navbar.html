@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Navbar</title>
+</head>
+<style>
+
+    * {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+/* Style the navigation menu */
+.navbar {
+  width:60%;
+  background-color: rgb(5, 139, 110);
+  overflow: auto;}
+
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+ /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color:rgba(5, 97, 77, 0.335);
+}
+
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align:center; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display:block;
+  background-color: white;
+}
+
+.dropdown:hover .dropbtn {background-color:rgba(5, 97, 77, 0.335);}
+</style>
+<body>
+    <!-- The navigation menu -->
+<div class="navbar">
+        <a class="active" href="#">Home</a> 
+        <a href="#">What's New</a> 
+        <a href="#">Get Started</a> 
+        <div class="dropdown">
+                <button class="dropbtn">Icons
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                </div>
+        </div>
+        <div class="dropdown">
+                <button class="dropbtn">Examples
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                  </div>
+              </div> 
+        
+        <a href="#">Accessibility</a>
+        <a href="#">Community</a>
+        <a href="#">License</a>
+      </div>
+</body>
+</html>
+
+

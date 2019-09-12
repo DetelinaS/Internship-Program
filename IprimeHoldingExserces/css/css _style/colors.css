@@ -1,0 +1,38 @@
+/*Colors first section*/
+#first-section-color {
+    border:2px ;
+    width:50%;}
+.red{
+   border: 2px solid blue; color:red;}
+.green{
+    border: 2px solid darkred; color:lime;}
+.blue{
+    border: 2px solid lime; color: blue;}
+
+/*Colors second section*/
+#second-section-color li{
+  width:50%;
+  list-style: none;
+}
+.new1{
+  border: 15px solid rgb(22, 55, 154);
+
+}
+.new2{
+  border: 15px solid rgb(37, 67, 158);
+}
+.new3{
+  border: 15px solid rgb(75, 106, 200);
+}
+.new4{
+  border: 15px solid rgba(165, 185, 246, 0.829);
+}
+
+
+
+
+
+
+
+
+    

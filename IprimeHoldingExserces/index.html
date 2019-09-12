@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Exsersises</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mainn.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- The sidebar -->
+    <app-sidebar class="sidebar">
+
+        <ul class="nav">
+            <!--HTML-->
+            <li class="nav-title">HTML</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="html/text.html">Texts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="html/elements.html">Inline and Block</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="htmlL/list.html"> Lists</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="html/links.html"> Links </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="html/images.html">Images</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="html/tables.html"> Tables</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="html/forms.html"> Forms</a>
+            </li>
+
+            <!--Css-->
+            <li class="nav-title">CSS</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css/css-colors.html"> CSS Colors</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css/css-backgrounds.html"></i> CSS Backgrounds</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css/css-box-model.html"> CSS Box Model</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css/css-texts-fonts.html"> CSS Texts and Fonts</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css/css-lists.html"> CSS Lists</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css/css-tables.html">CSS Tables</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css/css-layout.html"> CSS Layout</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css/css-bootstrap.html"> Bootstrap</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="css/css-mastering.html">CSS Mastering</a>
+            </li>
+            <!--JavaScript-->
+            <li class="nav-title">JavaScript</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#/javascript"> JavaScript</a>
+            </li>
+            <!--Angular-->
+            <li class="nav-title">Angular</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#/angular">Angular</a>
+            </li>
+        </ul>
+
+    </app-sidebar>
+    <!--Tab content-->
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Index</h2>
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#home">Assigmens</a></li>
+                                <li><a href="#menu1">Task 1</a></li>
+                               
+                            </ul>
+                        </div>
+
+                        <div class="tab-content card-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <!--Questions-->
+                                <div class="container-fluid " id="questions">
+                                    <div class="row ">
+                                        <div class=" col-lg-7 align-self-center ">
+                                            <div class="media-body d-flex">
+                                                <h3 class="strong">Въпроси</h3>
+                                                <p>
+                                                    <h5> <strong>Име на задачата </strong></h5>
+                                                    Тук е мястото на което ще виждате въпроси, обвързани с упражненията
+                                                    зададени от IprimeHolding.
+                                                    Ще се радвам на обратна връзка от ваша страна.
+                                                    В дясно има снимка за пояснение на зададения въпрос.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <img class="align-self-center mr-3" src="#" alt="questions image">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--TASK-->
+                                <h3>Описание на изискванията на задачата</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut
+                                    labore et dolore magna aliqua.</p>
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                <h3>Задача 1</h3>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo
+                                    consequat.</p>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!--Script for menu tab-->
+<script>$(document).ready(function () {
+        $(".nav-tabs a").click(function () {
+            $(this).tab('show');
+        });
+    });</script>

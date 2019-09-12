@@ -1,0 +1,32 @@
+
+  .conteiner{
+    width:500px;
+    height: auto;
+    border:1px solid rgb(223, 226, 230);
+  }
+
+ .avatar{
+    border-radius: 50%;
+    vertical-align:middle;
+    width: 40px;
+    height:40px;
+    margin: 10px;
+  }
+.title{
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  .conteiner span{
+    vertical-align:middle;
+  }
+
+.icon i{
+    font-size: 30px;
+    color: grey;
+    margin:10px 5px 10px 10px;
+}
+  .bookmark_border{
+      padding-left:300px;
+  }
+
+  
